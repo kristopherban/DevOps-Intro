@@ -1,0 +1,32 @@
+name: lab3-system-info
+on:
+  workflow_dispatch:
+
+jobs:
+  get-system-info:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: System Information
+        run: |
+          echo "========== SYSTEM INFORMATION =========="
+          echo ""
+          echo "1. OPERATING SYSTEM"
+          echo "-------------------"
+          uname -a
+          echo ""
+          echo "2. CPU INFO"
+          echo "-----------"
+          lscpu | grep "Model name"
+          echo "Cores: $(nproc)"
+          echo ""
+          echo "3. MEMORY INFO"
+          echo "--------------"
+          free -h
+          echo ""
+          echo "4. DISK INFO"
+          echo "------------"
+          df -h
+          echo ""
+          echo "========================================"
