@@ -1,0 +1,24 @@
+name: learn-github-actions
+on: 
+  workflow_dispatch:
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install -g bats
+      - run: bats -v
+      - name: System Information
+        run: |
+          echo "=== Operating System ==="
+          uname -a
+          echo "=== CPU Info ==="
+          lscpu | grep "Model name" || echo "No CPU info"
+          nproc
+          echo "=== Memory Info ==="
+          free -h
+          echo "=== Disk Info ==="
+          df -h
