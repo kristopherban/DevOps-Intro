@@ -1,7 +1,8 @@
 
 Task 1
 
-![[Pasted image 20260323132131.png]]
+<img width="1109" height="642" alt="image" src="https://github.com/user-attachments/assets/14d50295-a299-4434-a99b-a337640acff3" />
+
 
 
 d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
@@ -94,8 +95,11 @@ Task 2
 
 
 https://www.terapiatv.ru/?utm_referrer=https%3A%2F%2Fwww.google.com%2F
-![[Pasted image 20260323140600.png]]
-![[Pasted image 20260323140539.png]]![[Pasted image 20260323140906.png]]
+<img width="1850" height="159" alt="image" src="https://github.com/user-attachments/assets/9b90902e-cc4f-42e0-acf9-39c737912671" />
+
+<img width="1871" height="751" alt="image" src="https://github.com/user-attachments/assets/9533d538-807a-4044-91e2-07bc78873ac9" />
+<img width="1539" height="707" alt="image" src="https://github.com/user-attachments/assets/4e47b906-7fd3-4dbf-9d15-f1c29a3d1282" />
+
 
 
 ### Анализ
